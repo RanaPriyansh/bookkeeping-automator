@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 55;
+    objects = {
+        09C74CF0CB5759429DAC178E /* ThielonApp */ = {
+            isa = PBXGroup;
+            name = BookkeepingAutomator;
+            path = BookkeepingAutomator;
+            children = ( A9300350D8745C6F833DAB0D, 5EF223125AE55375B50AE2AD, 9CE912433AF0552F8899137D, F7895F8E1D435523AC6BB73E, 7061359E46355E7FBCA6599D, 830B8D7E12E0518D83AE4D4E, A05A03F2697F5DB19F0CBC50, D2AC2E7C9CA55FA08F684034, 466A3CA0C4CB500498A2DA60 );
+            sourceTree = <group>;
+        };
+        0F12D38CF2DA5DD6BAFB4C18 /* PBXBuildFile */ = {
+            isa = PBXBuildFile;
+            fileRef = F7895F8E1D435523AC6BB73E;
+        };
+        376B25FB77C258ECA29A444C /* Debug */ = {
+            isa = XCBuildConfiguration;
+            {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CLANG_ENABLE_MODULES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_ASSET_PATHS = ;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = BookkeepingAutomator/Info.plist;
+                INFOPLIST_KEY_CFBundleDisplayName = $(PRODUCT_NAME);
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad = $(inherited) UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
+                LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
+                MARKETING_VERSION = 1.0.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_NAME = BookkeepingAutomator;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1,2;
+                VERSIONING_SYSTEM = apple-generic;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = -Onone;
+            };
+            name = Debug;
+        };
+        466A3CA0C4CB500498A2DA60 /* Info.plist */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.plist.xml;
+            name = Info.plist;
+            path = Info.plist;
+            sourceTree = <group>;
+        };
+        59C9848527195B198465109F /* $(PRODUCT_NAME).app */ = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.application;
+            lastKnownFileType = wrapper.application;
+            name = $(PRODUCT_NAME).app;
+            path = $(PRODUCT_NAME).app;
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        5CB185C187005A38BFAE731A /* PBXGroup */ = {
+            isa = PBXGroup;
+            children = ( 09C74CF0CB5759429DAC178E );
+            sourceTree = <group>;
+        };
+        5EF223125AE55375B50AE2AD /* StoreManager.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = StoreManager.swift;
+            path = Services/StoreManager.swift;
+            sourceTree = <group>;
+        };
+        7061359E46355E7FBCA6599D /* OnboardingView.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = OnboardingView.swift;
+            path = Views/OnboardingView.swift;
+            sourceTree = <group>;
+        };
+        73BB9289E2D55CD7AD67506F /* PBXBuildFile */ = {
+            isa = PBXBuildFile;
+            fileRef = 5EF223125AE55375B50AE2AD;
+        };
+        830B8D7E12E0518D83AE4D4E /* PaywallView.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = PaywallView.swift;
+            path = Views/PaywallView.swift;
+            sourceTree = <group>;
+        };
+        86C37356F039523E9072399C /* Debug */ = {
+            isa = XCBuildConfiguration;
+            {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_ASSET_PATHS = ;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = BookkeepingAutomator/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
+                MARKETING_VERSION = 1.0.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_NAME = BookkeepingAutomator;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1,2;
+                CODE_SIGN_IDENTITY = Apple Development;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = -Onone;
+            };
+            name = Debug;
+        };
+        8BACDD31C3575C63B032B327 /* PBXProject */ = {
+            isa = PBXProject;
+            {
+                BuildIndependentTargetsInParallel = 1;
+                LastUpgradeCheck = 1200;
+            };
+            buildConfigurationList = CF65E067F0B15AE5BD53DCE0;
+            compatibilityVersion = Xcode 14.0;
+            developmentRegion = en;
+            knownRegions = ( en, Base );
+            mainGroup = 5CB185C187005A38BFAE731A;
+            productRefGroup = 5CB185C187005A38BFAE731A;
+            projectDirPath = ;
+            projectRoot = ;
+            targets = ( A28949C2A0095AA5A1E1D5E5 );
+        };
+        9410352E4EA05FB58FC4BE8A /* PBXBuildFile */ = {
+            isa = PBXBuildFile;
+            fileRef = 830B8D7E12E0518D83AE4D4E;
+        };
+        9670951B2BC75575BC82B372 /* PBXBuildFile */ = {
+            isa = PBXBuildFile;
+            fileRef = 7061359E46355E7FBCA6599D;
+        };
+        9CE912433AF0552F8899137D /* ThielonAIApp.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = ThielonAIApp.swift;
+            path = ThielonAIApp.swift;
+            sourceTree = <group>;
+        };
+        A05A03F2697F5DB19F0CBC50 /* Contents.json */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = text;
+            name = Contents.json;
+            path = Assets.xcassets/AppIcon.appiconset/Contents.json;
+            sourceTree = <group>;
+        };
+        A28949C2A0095AA5A1E1D5E5 /* $(PRODUCT_NAME) */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = BB5689B326DE5F9B9F205C60;
+            buildPhases = ( AFA80E6BB8525F92B71B380B, D75E1797E1F253AE80BA6BDD, E4F1E235C0175CBBB720F037 );
+            buildRules = (  );
+            dependencies = (  );
+            name = $(PRODUCT_NAME);
+            productName = $(PRODUCT_NAME);
+            productReference = 59C9848527195B198465109F;
+            productType = com.apple.product-type.application;
+        };
+        A7A98C6DF612506AB796227B /* PBXWorkspace */ = {
+            isa = PBXWorkspace;
+            mainGroup = 5CB185C187005A38BFAE731A;
+            children = ( 8BACDD31C3575C63B032B327 );
+        };
+        A9300350D8745C6F833DAB0D /* APIClient.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = APIClient.swift;
+            path = Services/APIClient.swift;
+            sourceTree = <group>;
+        };
+        AC834F51478551389703DF9E /* Release */ = {
+            isa = XCBuildConfiguration;
+            {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CLANG_ENABLE_MODULES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_ASSET_PATHS = ;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = BookkeepingAutomator/Info.plist;
+                INFOPLIST_KEY_CFBundleDisplayName = $(PRODUCT_NAME);
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad = $(inherited) UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
+                LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
+                MARKETING_VERSION = 1.0.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_NAME = BookkeepingAutomator;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1,2;
+                VERSIONING_SYSTEM = apple-generic;
+                SWIFT_OPTIMIZATION_LEVEL = -O;
+            };
+            name = Release;
+        };
+        AFA80E6BB8525F92B71B380B /* PBXSourcesBuildPhase */ = {
+            isa = PBXSourcesBuildPhase;
+            files = ( FAE8BB20AD075B13AB97B160, 73BB9289E2D55CD7AD67506F, B1EAC0D3AC0E565B9A659038, 0F12D38CF2DA5DD6BAFB4C18, 9670951B2BC75575BC82B372, 9410352E4EA05FB58FC4BE8A );
+        };
+        B1EAC0D3AC0E565B9A659038 /* PBXBuildFile */ = {
+            isa = PBXBuildFile;
+            fileRef = 9CE912433AF0552F8899137D;
+        };
+        BB5689B326DE5F9B9F205C60 /* XCConfigurationList */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = ( 86C37356F039523E9072399C, C44F606BF73A54F3A39A01D2 );
+            defaultConfigurationName = Release;
+        };
+        C44F606BF73A54F3A39A01D2 /* Release */ = {
+            isa = XCBuildConfiguration;
+            {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_ASSET_PATHS = ;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = BookkeepingAutomator/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
+                MARKETING_VERSION = 1.0.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_NAME = BookkeepingAutomator;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1,2;
+                CODE_SIGN_IDENTITY = Apple Distribution;
+                SWIFT_OPTIMIZATION_LEVEL = -O;
+            };
+            name = Release;
+        };
+        CF65E067F0B15AE5BD53DCE0 /* XCConfigurationList */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = ( 376B25FB77C258ECA29A444C, AC834F51478551389703DF9E );
+            defaultConfigurationName = Release;
+        };
+        D2AC2E7C9CA55FA08F684034 /* Contents.json */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = text;
+            name = Contents.json;
+            path = Assets.xcassets/Contents.json;
+            sourceTree = <group>;
+        };
+        D75E1797E1F253AE80BA6BDD /* PBXResourcesBuildPhase */ = {
+            isa = PBXResourcesBuildPhase;
+            files = ( A05A03F2697F5DB19F0CBC50, D2AC2E7C9CA55FA08F684034, 466A3CA0C4CB500498A2DA60 );
+        };
+        E4F1E235C0175CBBB720F037 /* PBXFrameworksBuildPhase */ = {
+            isa = PBXFrameworksBuildPhase;
+            files = (  );
+        };
+        F7895F8E1D435523AC6BB73E /* ContentView.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = ContentView.swift;
+            path = Views/ContentView.swift;
+            sourceTree = <group>;
+        };
+        FAE8BB20AD075B13AB97B160 /* PBXBuildFile */ = {
+            isa = PBXBuildFile;
+            fileRef = A9300350D8745C6F833DAB0D;
+        };
+    };
+    rootObject = A7A98C6DF612506AB796227B;
+}
