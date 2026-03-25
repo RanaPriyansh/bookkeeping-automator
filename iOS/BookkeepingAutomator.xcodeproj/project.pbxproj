@@ -5,7 +5,7 @@
     };
     objectVersion = 55;
     objects = {
-        09C74CF0CB5759429DAC178E /* ThielonApp */ = {
+        09C74CF0CB5759429DAC178E /* App */ = {
             isa = PBXGroup;
             name = BookkeepingAutomator;
             path = BookkeepingAutomator;
@@ -32,7 +32,7 @@
                 INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad = $(inherited) UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
                 LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
                 MARKETING_VERSION = 1.0.0;
-                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.bookkeepingautomator;
                 PRODUCT_NAME = BookkeepingAutomator;
                 SWIFT_VERSION = 5.0;
                 TARGETED_DEVICE_FAMILY = 1,2;
@@ -99,7 +99,7 @@
                 INFOPLIST_FILE = BookkeepingAutomator/Info.plist;
                 LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
                 MARKETING_VERSION = 1.0.0;
-                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.bookkeepingautomator;
                 PRODUCT_NAME = BookkeepingAutomator;
                 SWIFT_VERSION = 5.0;
                 TARGETED_DEVICE_FAMILY = 1,2;
@@ -133,11 +133,11 @@
             isa = PBXBuildFile;
             fileRef = 7061359E46355E7FBCA6599D;
         };
-        9CE912433AF0552F8899137D /* ThielonAIApp.swift */ = {
+        9CE912433AF0552F8899137D /* AIApp.swift */ = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
-            name = ThielonAIApp.swift;
-            path = ThielonAIApp.swift;
+            name = AIApp.swift;
+            path = AIApp.swift;
             sourceTree = <group>;
         };
         A05A03F2697F5DB19F0CBC50 /* Contents.json */ = {
@@ -186,7 +186,7 @@
                 INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad = $(inherited) UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
                 LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
                 MARKETING_VERSION = 1.0.0;
-                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.bookkeepingautomator;
                 PRODUCT_NAME = BookkeepingAutomator;
                 SWIFT_VERSION = 5.0;
                 TARGETED_DEVICE_FAMILY = 1,2;
@@ -220,7 +220,7 @@
                 INFOPLIST_FILE = BookkeepingAutomator/Info.plist;
                 LD_RUNPATH_SEARCH_PATHS = ( $(inherited), @executable_path/Frameworks, @loader_path/Frameworks );
                 MARKETING_VERSION = 1.0.0;
-                PRODUCT_BUNDLE_IDENTIFIER = com.thielon.bookkeepingautomator;
+                PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.bookkeepingautomator;
                 PRODUCT_NAME = BookkeepingAutomator;
                 SWIFT_VERSION = 5.0;
                 TARGETED_DEVICE_FAMILY = 1,2;

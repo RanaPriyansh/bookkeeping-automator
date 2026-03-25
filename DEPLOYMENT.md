@@ -8,7 +8,7 @@
 
 ## iOS App
 1. Open Xcode project in iOS/BookkeepingAutomator/
-2. Set bundle identifier: com.thielon.bookkeepingautomator
+2. Set bundle identifier: com.appfactory.bookkeepingautomator
 3. Add RevenueCat API key
 4. Configure App Store Connect entry
 5. Build and submit for review

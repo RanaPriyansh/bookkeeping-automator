@@ -2,7 +2,7 @@ import SwiftUI
 import RevenueCat
 
 @main
-struct ThielonAIApp: App {
+struct AIApp: App {
     @StateObject private var storeManager = StoreManager()
     @StateObject private var apiClient = APIClient()
     @State private var showingOnboarding = false

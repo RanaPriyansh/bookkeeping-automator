@@ -1,5 +1,9 @@
 # AI Bookkeeping Automator
 
+[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github)](https://github.com/RanaPriyansh/bookkeeping-automator)
+[![License](https://img.shields.io/github/license/RanaPriyansh/bookkeeping-automator)](https://github.com/RanaPriyansh/bookkeeping-automator/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/RanaPriyansh/bookkeeping-automator)](https://github.com/RanaPriyansh/bookkeeping-automator/commits/main)
+
 AI-powered bookkeeping automator for iOS.
 
 ## Features
@@ -19,7 +23,7 @@ Deploy to Vercel, Railway, or Heroku. Set all environment variables.
 
 ## App Store
 iOS app template: iOS/BookkeepingAutomator/
-Configure bundle ID: com.thielon.bookkeepingautomator
+Configure bundle ID: com.appfactory.bookkeepingautomator
 Set RevenueCat product: AI Bookkeeping Automator
 
 ## Revenue
