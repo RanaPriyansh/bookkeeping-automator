@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     SUPABASE_URL: str
     SUPABASE_ANON_KEY: str
     SECRET_KEY: str
+    APP_URL: str = "http://localhost:8000"
     APP_NAME: str = "AI Bookkeeping Automator"
     APP_ENV: str = "production"
     REDIS_URL: Optional[str] = None

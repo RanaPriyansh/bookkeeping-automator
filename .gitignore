@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables — never commit these
+.env
+.env.local
+.env.production
+.env.staging
+
+# Vercel
+.vercel/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / iOS
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
